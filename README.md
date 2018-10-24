@@ -1,4 +1,4 @@
-# vue-nud running on docker container
+# razzle-docker-boilerplate running on docker container
 
 ### development environment
 
