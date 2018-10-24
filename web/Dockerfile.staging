@@ -1,0 +1,10 @@
+FROM node:8-alpine
+
+WORKDIR /app
+COPY ./package.json ./
+RUN yarn
+COPY . .
+COPY ./.env.staging ./.env.production
+RUN yarn build --prod
+
+CMD [ "yarn", "run", "start:prod" ]

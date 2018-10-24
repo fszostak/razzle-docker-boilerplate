@@ -1,0 +1,17 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server -p 3080 --watch data.json",
+    "generate": "json-server generate.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.9.4",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.11"
+  }
+}
