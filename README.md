@@ -61,3 +61,9 @@ $ docker stop c95b19cf82b9
 ```
 $ docker rmi razzle-boilerplate-staging razzle-boilerplate-production
 ```
+
+#### Learn more about React 
+[Server Side Rendering with React and Redux](https://www.udemy.com/share/100aViBUMeeFtTRHQ=/)
+
+#### Learn more about Docker
+[Docker and Kubernetes: The Complete Guide](https://www.udemy.com/share/100r9ABUMeeFtTRHQ=/)
